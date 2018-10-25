@@ -1,0 +1,11 @@
+# Cursor
+C-x C-[pnbf]	prev,next,back,forward
+C-x C-[ae]	line-ahead,end
+# File
+C-x C-[swf]	save,write other,fopen
+C-/		C-x u undo
+# Copy-Yank(Paste)
+C-@,M-w,C-y
+C-@,C-w,C-y
+# Indent
+C-@,C-M-\
