@@ -1,11 +1,22 @@
-(defparameter *my-alist*
-  '((one . 1)
-    (two . 2)
-    (three . 3)))
+#| association list
+|#
+(defparameter *fruits*
+  '((Apple (5))
+    (Melon (10))
+    (Orange (29))))
 
-(cons (cons 'four 4) *my-alist*)
+(defun add-banana ()
+  "add cons"
+  (let ((banana-data (cons 'Banana '(3))))
+    (cons banana-data *fruits*)))
 
-(defparameter *alist2*
-  (acons 'four 4 *my-alist*))
+(defun add-banana2 (n)
+  "use acons function."
+  (acons 'Banana (list n) *fruits*))
 
-(assoc 'two *my-alist*)
+(defun get-apple ()
+  (assoc 'Apple *fruits*))
+
+#|
+plist
+|#
