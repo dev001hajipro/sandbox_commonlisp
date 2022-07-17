@@ -6,6 +6,9 @@
   "ハロー"
   (format t "Hello world!"))
 
+(defun say-goodbye ()
+  (format t "goodbye~%"))
+
 (defun fib (n)
   "fibonacci number"
   (if (< n 2)
