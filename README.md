@@ -1,16 +1,15 @@
-# sandbox_commonlisp
-
-Common Lispの学習プロジェクト
+# Common Lispの学習プロジェクト
 
 ## References
 
 - <https://lisp-lang.org/learn/>
 - [逆引きCommon Lisp](https://lisphub.jp/common-lisp/cookbook/)
 
-## EMacs
+## Emacs操作方法
 
 - [Emacsの基本操作](http://www.rsch.tuis.ac.jp/~ohmi/literacy/emacs/index.html)
 
+```
 Ctrl-[fbnp]
 Ctrl-[ae], ahead,
 Ctrl-d
@@ -24,6 +23,7 @@ C-k, C-y cut line from cursor. and paste
 C-space C-k cut
 C-space M-w copy to memory.
 C-g C-g cancel
+```
 
 ### バッファ操作
 ```
